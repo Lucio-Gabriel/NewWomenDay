@@ -1,0 +1,66 @@
+body {
+    background-color: #111315;
+}
+
+.centered-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-pulse {
+    margin-top: 8rem; /* mt-32 */
+    margin-bottom: 0.5rem; /* mb-2 */
+    animation: pulse 2s infinite; /* animate-pulse */
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.title-style {
+    color: white; /* text-white */
+    text-align: center; /* text-center */
+    font-weight: 600; /* font-semibold */
+    font-size: 1.5rem; /* text-2xl */
+}
+
+.emoji-container-two img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.emoji-container-two {
+    width: 18rem; /* w-96 */
+}
+
+.photo-style {
+    border-radius: 0.75rem; /* rounded-xl */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* shadow-2xl */
+}
+
+.margin-top-4 {
+    margin-top: 1rem; /* mt-4 */
+}
+
+.titulo-personalizado {
+    color: white; /* text-white */
+    text-align: center; /* text-center */
+    font-weight: normal; /* font-normal */
+    font-size: 1.25rem; /* text-xl */
+    line-height: 1.75rem; /* Espaçamento de linha do text-xl */
+}
+
+.div-estilizada {
+    margin-top: 8rem; /* mt-32 */
+    color: #94a3b8; /* text-slate-400 */
+}
+
+
+
