@@ -1,5 +1,6 @@
 body {
     background-color: #111315;
+    font-family: 'Poppins', sans-serif;
 }
 
 .centered-column {
@@ -10,9 +11,9 @@ body {
 }
 
 .margin-pulse {
-    margin-top: 8rem; /* mt-32 */
-    margin-bottom: 0.5rem; /* mb-2 */
-    animation: pulse 2s infinite; /* animate-pulse */
+    margin-top: 8rem;
+    margin-bottom: 0.5rem;
+    animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
@@ -25,41 +26,41 @@ body {
 }
 
 .title-style {
-    color: white; /* text-white */
-    text-align: center; /* text-center */
-    font-weight: 600; /* font-semibold */
-    font-size: 1.5rem; /* text-2xl */
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .emoji-container-two img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%;
+    height: auto;
 }
 
 .emoji-container-two {
-    width: 18rem; /* w-96 */
+    width: 18rem;
 }
 
 .photo-style {
-    border-radius: 0.75rem; /* rounded-xl */
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* shadow-2xl */
+    border-radius: 0.75rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 .margin-top-4 {
-    margin-top: 1rem; /* mt-4 */
+    margin-top: 1rem;
 }
 
 .titulo-personalizado {
-    color: white; /* text-white */
-    text-align: center; /* text-center */
-    font-weight: normal; /* font-normal */
-    font-size: 1.25rem; /* text-xl */
-    line-height: 1.75rem; /* Espaçamento de linha do text-xl */
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
 
 .div-estilizada {
-    margin-top: 8rem; /* mt-32 */
-    color: #94a3b8; /* text-slate-400 */
+    margin-top: 8rem;
+    color: #94a3b8;
 }
 
 
